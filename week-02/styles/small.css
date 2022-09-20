@@ -1,0 +1,111 @@
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Merriweather Raleway*/
+
+body {
+    font-family: Merriweather;
+    font-size: 16px;
+    background-color: white;
+}
+
+header {
+    padding: 1rem 1%;
+    background-color: rgb(180, 95, 39);
+}
+
+header h1 {
+    margin: 0;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px 20px black;
+}
+
+header h2 {
+    margin: 0;
+    margin-top: 5%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px 20px black;
+}
+
+main {
+    display: block;
+    padding: 1rem 1%;
+    margin: 2%;
+}
+
+main img {
+    max-width: 96%;
+    margin: 2%;
+    border: 1px solid #111;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.principles {
+    border-radius: 10px 10px 0 0;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.home-grid h2, .home-grid h3 {
+    background-color: rgb(180, 95, 39);
+    color: white;
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    text-shadow: 10px 10px 20px black;
+}
+
+.proximity, .alignment, .contrast {
+    box-shadow: 10px 10px 20px black;
+}
+
+.companies {
+    font-size: 16px;
+}
+
+.home-grid div {
+    border: 1px solid #111;
+    margin: 3%;
+    border-radius: 10px;
+    background-color: rgba(235, 154, 32, 0.185);
+}
+
+.home-grid a{
+    display: block;
+    text-align: center;
+    margin: 3%;
+}
+
+.home-grid p {
+    margin: 5%;
+    text-shadow: 10px 10px 20px black;
+}
+
+footer {
+    background-color: rgb(180, 95, 39);
+    color: white;
+    padding: 0.5%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 13px;
+    font-family: Merriweather;
+    text-shadow: 10px 10px 20px black;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
