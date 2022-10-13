@@ -93,6 +93,10 @@
       border-right: 1px solid black;
    }
 
+   nav ul li a {
+      height: 100%;
+   }
+
    nav ul li, .active {
       width: 100%;
       text-align: center;
@@ -106,8 +110,6 @@
    .active:hover {
       color: white;
       background-color: #484349;
-      border-left: 1px white solid;
-      border-right: 1px white solid;
    }
 
    nav {     
@@ -228,7 +230,6 @@
 
    .main-discover img {
       width: 60vw;
-      filter: blur(0%);
       opacity: 1;
       transition: all 0.7s;
       border-radius: 20px;

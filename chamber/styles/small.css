@@ -13,6 +13,10 @@ body, header, nav, main, footer {
     width: 100%;
 }
 
+.fa-facebook, .fa-twitter{
+    width: 100%;
+}
+
 
 /*----------- BODY --------------*/
 
@@ -123,8 +127,8 @@ nav ul li a {
 }
 
 .active {
-    background-color: white;
-    color: #51a3a3;
+    background-color: #51a3a3;
+    color: white;
     border-top: 1px solid black;
 }
 
@@ -258,7 +262,6 @@ main h1 {
 }
   
 .main-discover img {
-    filter: blur(0%);
     opacity: 1;
     transition: all 0.7s;
     border-radius: 20px;
@@ -298,7 +301,7 @@ figcaption {
 .main-discover p{
     font-size: 96.5%;
     text-align: center;
-    padding: 0 auto;
+    padding: 0;
     margin: 5%;
     padding: 2%;
 }
