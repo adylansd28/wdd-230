@@ -13,10 +13,55 @@ body, header, nav, main, footer {
     width: 100%;
 }
 
-.fa-facebook, .fa-twitter{
-    width: 100%;
+.social-media-div {
+    display: inline;
 }
 
+header ul {
+    margin-top: 2%;
+    margin-right: 10%;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    margin: 5%;
+}
+
+header ul li p {
+    margin-left: 5%;
+    color: black;
+    font-size: 80%;
+    margin-top: 10%;
+}
+
+.twitter-p {
+    margin-top: 20%;
+}
+
+header ul li {
+    display: flex;
+}
+
+.fa-facebook, .fa-twitter{
+    border:#484349 1px solid;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15%;
+    padding-top: 3%;
+}
+
+.fa-facebook:hover, .fa-twitter:hover {
+    color: white;
+    background-color: #484349;
+}
 
 /*----------- BODY --------------*/
 

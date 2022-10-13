@@ -4,6 +4,26 @@
     /*----------- BODY --------------*/
     
     /*----------- HEADER --------------*/
+
+    header ul{
+        margin-left: 60%;
+    }
+
+    .fa-facebook, .fa-twitter{
+        border:#484349 1px solid;
+        width: 40px;
+        height: 30px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 15%;
+        padding-top: 2.5%;
+        margin-right: 0;
+    }
+
+    .fa-twitter{
+        width: 45px;
+        margin-top: 16.5%;
+    }
     
     .date {
         margin-left: 19.5%;

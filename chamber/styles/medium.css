@@ -7,6 +7,39 @@
       padding: 0;
    }
 
+   header ul{
+      margin-left: 30%;
+      padding-left: 0;
+   }
+
+   .facebook-p {
+      margin-top: 15%;
+   }
+
+   .fa-facebook, .fa-twitter{
+      border:#484349 1px solid;
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: center;
+      margin-top: 15%;
+      padding-top: 2.5%;
+      margin-right: 0;
+   }
+
+  .fa-twitter {
+   width: 50px;
+  }
+
+  header, header div, header ul {
+   border-radius: 10px
+   }
+
+   header {
+      border-bottom: 1px solid black;
+   }
+
+
    /*----------- BODY --------------*/
 
    body {
