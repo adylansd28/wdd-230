@@ -1,9 +1,23 @@
 /* Formatted Date Header */
 const datefield = document.querySelector(".date");
-const now = new Date();
+let now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
+const header = document.querySelector(".header");
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+
+function Message(){
+    if (now.getDay() == 1 || now.getDay() == 2 || now.getDay() == 5){
+
+        let newMessage = document.createElement("p");
+        newMessage.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+        newMessage.setAttribute("class", "message");
+
+        header.prepend(newMessage);
+    }
+}
+
+Message();
 
 /* Hamburger Button */
 function toggleMenu () {

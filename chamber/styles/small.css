@@ -13,56 +13,6 @@ body, header, nav, main, footer {
     width: 100%;
 }
 
-.social-media-div {
-    display: inline;
-}
-
-header ul {
-    margin-top: 2%;
-    margin-right: 10%;
-    display: flex;
-}
-
-header ul li {
-    list-style: none;
-
-}
-
-header ul li a{
-    text-decoration: none;
-    margin: 5%;
-}
-
-header ul li p {
-    margin-left: 5%;
-    color: black;
-    font-size: 80%;
-    margin-top: 10%;
-}
-
-.twitter-p {
-    margin-top: 20%;
-}
-
-header ul li {
-    display: flex;
-}
-
-.fa-facebook, .fa-twitter{
-    border:#484349 1px solid;
-    width: 50px;
-    height: 30px;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 15%;
-    padding-top: 3%;
-}
-
-.fa-facebook:hover, .fa-twitter:hover {
-    color: white;
-    background-color: #484349;
-}
-
 /*----------- BODY --------------*/
 
 h1, h2, h3{
@@ -76,6 +26,18 @@ p, a {
 }
     
 /*----------- HEADER --------------*/
+
+.message {
+    margin-top: 0;
+    padding-top: 2%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: #51a3a3;
+}
 
 .p-header {
     text-align: center;
@@ -169,6 +131,13 @@ nav ul li a {
     color: white;
     border-top: 1px solid black;
     font-size: .8rem;
+    margin-right: 0;
+}
+
+.fa {
+    width: 48%;
+    text-align: center;
+    margin-left: 1%;
 }
 
 .active {
@@ -234,14 +203,20 @@ main h1 {
     box-shadow: 5px 5px 15px #004444;
 }
 
-.myphoto{
-    margin-left: 2.5%;
-    width: 95%;
+.home-grid a {
+    width: 120%;
 }
 
-.myphoto img {
-    margin-top: 2%;
-    max-width: 100%;
+.img-free {
+    width: auto;
+    opacity: 0.2;
+}
+
+.home-grid div {
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #51a3a3;
 }
 
 .windchill {
@@ -296,9 +271,8 @@ main h1 {
     box-shadow: 0px 0px 10px 5px #4843496e;
 }
 
-.link-7 {
-    position: relative;
-    z-index: 2;
+.link-7, .link-8 {
+    display: none;
 }
 
 .main-discover img[data-src] {

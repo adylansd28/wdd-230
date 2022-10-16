@@ -1,5 +1,5 @@
- /* 35em is also 560px (if basefont is 16px) */
- @media only screen and (min-width: 35rem) {
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
 
    body, header, nav, main, footer {
       max-width: 100%;
@@ -10,10 +10,18 @@
    header ul{
       margin-left: 30%;
       padding-left: 0;
+      margin-bottom: 0;
    }
-
    .facebook-p {
       margin-top: 15%;
+   }
+
+   header div ul:nth-child(1){
+      margin-right: 10%;
+   }
+
+   header div ul:nth-child(2){
+      margin-right: 5%;
    }
 
    .fa-facebook, .fa-twitter{
@@ -22,9 +30,15 @@
       height: 30px;
       border-radius: 5px;
       text-align: center;
-      margin-top: 15%;
+      margin-top: 13%;
       padding-top: 2.5%;
+   }
+
+   .fa-twitter {
+      margin-top: 16%;
+      width: 60px;
       margin-right: 0;
+
    }
 
   .fa-twitter {
@@ -32,11 +46,15 @@
   }
 
   header, header div, header ul {
-   border-radius: 10px
+   border-radius: 5px
    }
 
    header {
       border-bottom: 1px solid black;
+   }
+
+   .social-media-div {
+      border-radius: 5px;
    }
 
 
@@ -60,6 +78,13 @@
    }
    
    /*----------- HEADER --------------*/
+
+   .message {
+      font-size: 120%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      border-radius: 5px 5px 0px 0px;
+   }
 
    .p-header {
       padding: 1%;
@@ -94,7 +119,11 @@
       font-size: 120%;
       text-align: center;
       margin-left: 10%;
-   } 
+   }
+
+   header {
+      margin-bottom: 0;
+   }
 
    /*----------- NAVIGATION --------------*/
 
@@ -102,7 +131,7 @@
       display: flex;
       width: 80%;
       margin-left: 10%;
-  }
+   }
 
    nav button {
    margin-top: 1%;
@@ -117,17 +146,59 @@
    border-radius: 5px;
    }
 
+   nav {
+      border: 0;
+   }
+
    nav ul {
       max-width: 84%;
-      border-bottom: 1px solid black;
+      border: 1px solid black;
+      overflow: hidden;
+   }
+
+   nav ul li:nth-child(-n+3) {
+      border-right: 1px solid black;
    }
 
    nav ul li {
-      border-right: 1px solid black;
+      
+      border: 0;
    }
 
    nav ul li a {
       height: 100%;
+      border: 0;
+   }
+
+   
+
+   .last-li {
+   display: flex;
+   border-left: black 1px solid ;
+   }
+
+   .fa-facebook {
+      border: 1px white solid;
+      text-align: center;
+      padding-right: 5%;
+      padding-left: 5%;
+      padding-top: 4%;
+      margin-top: 4%;
+      margin-left: 25%;
+      margin-right: 0;
+      width: 20%;
+   }
+
+   .fa-twitter {
+      border: 1px white solid;
+      text-align: center;
+      padding-right: 5%;
+      padding-left: 5%;
+      padding-top: 4%;
+      margin-top: 4%;
+      margin-left: 15%;
+      margin-right: 15%;
+      width: 20%;
    }
 
    nav ul li, .active {
@@ -136,9 +207,7 @@
    }
    
    .active {
-      border: 1px solid black;
-      border-right: 0;
-      border-bottom: 0;
+      border: 0;
    }
    .active:hover {
       color: white;
@@ -171,14 +240,14 @@
    }
    
    .home-grid {
-      max-width: 100%;
+      max-width: 90%;
       width: 100%;
       max-height: 100%;
       padding: 0;
       margin: 0;
       margin-left: 5%;
       display: grid;
-      grid-template-columns: 43.5% 43.5%;
+      grid-template-columns: repeat(4, auto);
       grid-template-rows: repeat(5, auto);
       grid-gap: 1%;
    }
@@ -186,93 +255,53 @@
    .home-grid a {
       padding-top: 0;
       margin-left: 0;
-      width: 100%;
-      max-width: 100%;
-      max-height: 100%;
       border-radius: 2px;
-      overflow: hidden;
    }
 
-   .home-grid img{
-      max-width: 100%;
-      width: 100%;
-      margin: 0;
-      overflow: hidden;
-   }
-
-   .myphoto{
-      margin-left: 10%;
-      width: 80%;
-   }
-
-   .myphoto img{
-      max-width: 100%;
-      margin-top: 2.5%;
+   .img-free {
+      height: 140%;
+      width: 140%;
    }
 
    .link-1 {
-      grid-column: 1/3;
+      grid-column: 1/5;
       grid-row: 1/2;
-      width: 100%;
-      max-width: 100%;
    }
 
    .link-2 {
-      grid-column: 1/3;
-      grid-row: 2/3;
+      grid-column: 1/4;
+      grid-row: 5/6;
    }
 
    .link-3 {
-      grid-column: 1/2;
-      grid-row: 3/4;
-   }
-
-   .link-3 img {
-      max-width: 150%;
-      width: 143%;
+      grid-column: 4/5;
+      grid-row: 5/6;
    }
 
    .link-4 {
-      grid-column: 2/3;
-      grid-row: 3/4;
-   }
-
-   .link-4 img {
-      height: 100%;
+      grid-column: 1/5;
+      grid-row: 2/3;
    }
 
    .link-5 {
       grid-column: 1/3;
-      grid-row: 4/5;
+      grid-row: 3/4;
    }
    
    .link-6 {
-      grid-column: 1/2;
-      grid-row: 5/6;
+      grid-column: 3/5;
+      grid-row: 3/4;
    }
 
    .link-7 {
-      grid-column: 2/3;
-      grid-row: 5/6;
+      display: block;
+      grid-column: 1/5;
+      grid-row: 4/5;
    }
 
    .windchill {
       width: 79.5%;
       margin-left: 10%;
-   }
-
-   .main-discover img {
-      width: 60vw;
-      opacity: 1;
-      transition: all 0.7s;
-      border-radius: 20px;
-      margin: 2%;
-   }
- 
-   .main-discover img:hover {
-    border: 2px solid rgba(1,1,1,0.7);
-    opacity: 0.5;
-    filter: blur(1px); 
    }
  
    form {
@@ -353,6 +382,10 @@
    .last-p {
       font-size: 80%;
       margin-left: 2%;
+   }
+
+   footer {
+      padding-top: 15%;
    }
          
  } /* end of media query */
