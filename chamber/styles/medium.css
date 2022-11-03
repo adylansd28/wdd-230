@@ -268,6 +268,14 @@
       grid-row: 1/2;
    }
 
+   .link-1 img {
+      width: 140%;
+   }
+   
+   .home-grid a{
+      overflow: hidden;
+   }
+
    .link-2 {
       grid-column: 1/4;
       grid-row: 5/6;
@@ -281,6 +289,36 @@
    .link-4 {
       grid-column: 1/5;
       grid-row: 2/3;
+   }
+
+   .link-4 h3 {
+      font-size: 400%;
+   }
+
+   .link-4 p, .link-4 form {
+      font-size: 200%;
+   }
+
+   .link-4 p {
+      padding-left: 39%;
+      margin-bottom: 2%;
+   }
+
+   .wind-chill-div {
+      top: 2%;
+   }
+
+   .wind-chill-div form input {
+      margin-top: 7%;
+      margin-bottom: 7%;
+   }
+
+   .wind-chill-div form label {
+      margin-left: 20%;
+   }
+
+   .wind-chill-div form .wind-speed-input {
+      margin-bottom: 0;
    }
 
    .link-5 {

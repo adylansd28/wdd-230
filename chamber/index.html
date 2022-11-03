@@ -66,10 +66,35 @@
 
             <div class="home-grid">
 
-                <div class="link-1"><a href="#"><img src="images/quito-landscape.jpg" class="placeholder-1 landscape" alt="placeholder-1"></a></div>
+                <div class="link-1">
+                    <a href="#">
+                        <picture class="hero">
+                            <source media="(min-width: 1028px)" srcset="images/hero-800.jpg">
+                            <source media="(min-width: 560px)" srcset="images/hero-500.jpg">
+                            <img src="images/hero-350.jpg" alt="placeholder-1">
+                        </picture>
+                    </a>
+                </div>
                 <div class="link-2"><a href="#"><img src="images/link-2.jfif" class="placeholder-2 img-free" alt="placeholder-2"></a></div>
-                <div class="link-3"><a href="#"><img src="images/link-3.jfif" class="placeholder-3 img-free" alt="placeholder-3"></a></div>
-                <div class="link-4"><a href="#"><img src="images/link-4.jfif" class="placeholder-4 img-free" alt="placeholder-4"></a></div>
+                <div class="link-3"><a href="#"><img src="images/link-3.jfif" class="placeholder-4 img-free" alt="placeholder-4"></a></div>
+                <div class="link-4">
+                    <img src="images/link-4.jfif" class="placeholder-4 img-free" alt="placeholder-4">
+                    <div class="wind-chill-div">
+                        <h3>Weather</h3>
+
+                        <p>Wind Chill: <span class="wind-chill-span"></span></p>
+
+                        <form>
+                            <label>Temperature (F°):</label>
+                            <input type="number" placeholder="in Farenheit" class="temp-input"><br>
+
+                            <label>Wind Speed (mph):</label>
+                            <input type="number" placeholder="in Miles per Hour" class="wind-speed-input"><br>
+
+                            <input type="button" class="calc-btn" value="Calc">
+                        </form>
+                    </div>
+                </div>
                 <div class="link-5"><a href="#"><img src="images/link-5.jfif" class="placeholder-5 img-free" alt="placeholder-5"></a></div>
                 <div class="link-6"><a href="#"><img src="images/link-6.jfif" class="placeholder-6 img-free" alt="placeholder-6"></a></div>
                 <div class="link-7"><a href="#"><img src="images/link-7.jfif" class="placeholder-7 img-free" alt="placeholder-7"></a></div>
@@ -101,6 +126,7 @@
         </footer>
 
         <script src="scripts/script.js"></script>
+        <script src="scripts/wind-chill.js"></script>
 
     </body>
   

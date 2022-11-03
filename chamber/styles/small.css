@@ -191,102 +191,87 @@ main h1 {
 
 .home-grid {
     margin-top: 0;
+    width: 100%;
 }
 
+
 .home-grid img {
-    width: 95%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
     border-radius: 2px;
     box-shadow: 5px 5px 15px #004444;
 }
 
-.home-grid a {
-    width: 120%;
-}
-
 .img-free {
-    width: auto;
+    width: 100%;
     opacity: 0.2;
 }
-
 .home-grid div {
     border: 1px solid black;
     overflow: hidden;
     border-radius: 20px;
+    margin: 2%;
     box-shadow: 5px 5px 10px #51a3a3;
 }
 
-.windchill {
-    background-color: #fff;
-    text-align: center;
-    padding: 1%;
-    border-radius: 2px;
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0%;
-    margin-bottom: 0%;
+.home-grid a{
+    overflow: hidden;
+    padding: 0;
 }
 
-.hero-image { 
-    position: relative;
-}
-
-.home-grid {
-    width: 100%;
-}
-
-.hero-h2 {
-    position: absolute;
-    text-align: center;
-    width: 150px;
-    white-space: pre;
-    left: 20px;
-    top: 15px;
-    margin: 0;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.397);
-    box-shadow: 0px 0px 10px 5px #4843496e;
-}
-
-.hero-h2-nmo {
-    position: absolute;
-    text-align: center;
-    font-size: 500%;
-    width: 70%;
-    white-space: pre;
-    left: 20%;
-    top: 25%;
-    margin: 0;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10%;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.397);
-    box-shadow: 0px 0px 10px 5px #4843496e;
+picture img {
+    width: 120%;
 }
 
 .link-7, .link-8 {
     display: none;
 }
 
-.main-discover img[data-src] {
-    filter: blur(2px);
-    opacity: 0.5;
+.link-4 {
+    position: relative;
 }
-  
-.main-discover img {
-    opacity: 1;
-    transition: all 0.7s;
-    border-radius: 20px;
-    margin: 2%;
-    margin-left: 0;
-    width: 60vw;
+
+.wind-chill-div {
+    left: -1.5%;
+    top:10%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    border-radius: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.wind-chill-div h3 {
+    text-align: center;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.wind-chill-div p {
+    padding-left: 40%;
+    margin-bottom: 2%;
+}
+
+.wind-chill-div p, .wind-chill-div form label {
+    margin-left: 10%;
+}
+
+.wind-chill-div form input {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.calc-btn {
+    margin-left: 45%;
+}
+
+.wind-chill-div form {
+    border: 0;
+}
+
+.link-4 p {
+    margin: 0;
 }
 
 .main-discover {
@@ -323,63 +308,6 @@ figcaption {
     padding: 0;
     margin: 5%;
     padding: 2%;
-}
-
-form {
-    margin-left: 2.5%;
-    font-family: 'Raleway', Arial, sans-serif;
-    max-width: 96%;
-    color: #484349;
-    margin-top: 5%;
-    margin-bottom: 2%;
-}
-
-.main-fieldset {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    max-width: 96%;
-    margin-left: 2%;
-    border-radius: 10px;
-    border: 1px solid #484349;
-}
-
-.form-title {
-    margin-left: 2%;
-    font-weight: bold;
-    font-size: 200%;
-}
-
-form label {
-    margin-top: 5%;
-    padding-left: 2%;
-}
-
-.submit {
-    margin-top: 5%;
-    max-width: 50%;
-    margin-left: 23%;
-    margin-bottom: 2%;
-    color: #484349;
-    border-radius: 5px;
-    border: 1px solid #484349;
-}
-
-form textarea{
-    margin-top: 2%;
-    border-radius: 5px;
-}
-
-form label input {
-    margin-left: 2%;
-    border-radius: 5px;
-    border: 1px solid #484349;
-}
-
-.radio-fieldset {
-    margin-top: 5%;
-    border-radius: 5px;
-    border: 1px solid #484349;
 }
 
 .businessName {
