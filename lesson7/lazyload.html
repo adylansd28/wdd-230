@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+
+      <title>Lazy Loading</title>
+      <meta charset="utf-8">
+
+      <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name ="description" content="Quito Chamber of Commerce Web Site">
+
+      <!-- STYLE SHEETS -->
+      <link href="styles.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Progressive Loading (Images)</h1>
+        </header>
+
+        <!-- MAIN HERE -->
+        <main>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/cat.jpg" alt="cat">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/dog.jpg" alt="dog">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/football.jpg" alt="football">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/furniture.jpg" alt="furniture">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/ocean.jpg" alt="ocean">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/ship.jpg" alt="ship">
+            </picture>
+
+        </main>
+
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+  
+</html>
