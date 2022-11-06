@@ -425,5 +425,47 @@
    footer {
       padding-top: 15%;
    }
+
+
+   /* DISCOVER PAGE */
+
+   .main-discover img[data-src] {
+      filter: blur(0.2em);
+   }
+
+   .main-discover img {
+      filter: blur(0em);
+      transition: filter 0.5s;
+      border-radius: 20px;
+      box-shadow: 0 0 20px black;
+      width: 40vw;
+   }
+
+   .main-discover figcaption {
+      margin-top: 2%;
+   }
+
+   .main-discover-div {
+      top: 2%;
+      width: 40vw;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 12% auto auto auto auto;
+      padding-bottom: 0%;
+   }
+
+   .main-discover h2 {
+      grid-column: 1/5;
+      grid-row: 1/2;
+   }
+  
+  .main-discover h3 {
+      grid-column: 1/5;
+      grid-row: 2/3;
+   }
+
+   .main-discover img:hover {
+      width: 42vw;
+      box-shadow: 0 0 30px black;
+   }
          
  } /* end of media query */

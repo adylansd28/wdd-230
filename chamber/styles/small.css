@@ -283,7 +283,6 @@ picture img {
 
 .discover-h1 {
     margin: 0 auto;
-    margin-bottom: 1%;
 }
 
 figcaption {
@@ -354,4 +353,54 @@ footer a {
 
 hr {
     margin-top: 5%;
+}
+
+/* DISCOVER PAGE */
+
+.main-discover img[data-src] {
+    filter: blur(0.2em);
+}
+
+.main-discover img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    width: 80vw;
+}
+
+.main-discover figcaption {
+    margin-top: 2%;
+}
+
+.main-discover-div {
+    position: sticky;
+    top: 10%;
+    box-shadow: 0 0 20px black;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 10% auto auto auto auto auto;
+    grid-gap: 1%;
+    z-index: 10;
+    background-color: #1b6d6db6;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80%;
+    padding-bottom: 5%;
+}
+
+.main-discover h2, .main-discover h3, .main-discover p {
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.main-discover h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.main-discover h3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
 }
