@@ -404,3 +404,66 @@ hr {
     grid-column: 1/3;
     grid-row: 2/3;
 }
+
+/* JOIN PAGE */
+
+.main-join h1 {
+    text-align: center;
+}
+
+.main-join form .main-fieldset{
+    background-color: #51a3a3d5;
+}
+
+legend {
+    text-align: center;
+    padding: 5%;
+    font-family: 'Merriweather', Arial, serif;
+    font-size: 120%;
+    background-color: #51a3a3;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-join input, .main-join fieldset, .main-join textarea {
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.main-join input {
+    border-radius: 5px;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.main-join label {
+    font-family: 'Raleway', Arial, sans-serif;
+    color: white;
+    font-size: 110%;
+}
+
+.main-join .first-name {
+    margin-top: 0;
+}
+
+.main-join textarea {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.main-join .bsd-label {
+    display: block;
+    text-align: center;
+}
+
+.main-join .submit-container {
+    text-align: center;
+}
+
+.main-join .radio-1 {
+    margin-top: 0%;
+}
+
+.main-join .radio {
+    margin-left: 22%;
+}

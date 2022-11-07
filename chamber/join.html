@@ -12,19 +12,19 @@
       <meta name ="description" content="Quito Chamber of Commerce Web Site | Join">
 
       <!-- STYLE SHEETS -->
-      <link href="css/normalize.css" rel="stylesheet">
+      <link href="styles/normalize.css" rel="stylesheet">
       <!-- phone-default -->
-      <link href="css/small.css" rel="stylesheet">
+      <link href="styles/small.css" rel="stylesheet">
       <!-- enhance-tablet -->
-      <link href="css/medium.css" rel="stylesheet">
+      <link href="styles/medium.css" rel="stylesheet">
       <!-- enhance-desktop -->
-      <link href="css/large.css" rel="stylesheet">
+      <link href="styles/large.css" rel="stylesheet">
 
       <!-- Font Families -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
 
@@ -65,25 +65,28 @@
             <form method="get" action="thankyou.html">
 
                 <fieldset class="main-fieldset">
-                    <legend class="form-title" name="form-title">Join Us</legend>
-                    <label>First Name* <input type="text" name="fname" required></label>
-                    <label>Last Name* <input type="text" name="lname" required></label>
-                    <label>Position Title <input type="text" name="positionTitle"></label>
-                    <label>E-mail* <input type="email" name="email" required placeholder="someone@example.com"></label>
-                    <label>Telephone* <input type="tel" name="phone" required></label>
-                    <label>Business Name Title* <input class="businessName" type="text" name="businessNameTitle" required></label>
+                    <legend class="form-title" name="form-title">Join Us!</legend>
+                    <label>First Name* <input type="text" name="fname" required class="first-name"></label><br>
+                    <label>Last Name* <input type="text" name="lname" required></label><br>
+                    <label>Position Title <input type="text" name="positionTitle" pattern="([a-zA-Z\-\ ]){7,}"></label><br>
+                    <label>E-mail* <input type="email" name="email" required placeholder="someone@example.com"></label><br>
+                    <label>Telephone* <input type="tel" name="phone" required></label><br>
+                    <label>Business Name* <input class="businessName" type="text" name="businessNameTitle" required></label><br>
 
                     <fieldset class="radio-fieldset">
                         <legend>Membership Level</legend>
-                        <label><input class="radio" type="radio" name="membership" value="guest"> Guest</label>
-                        <label><input class="radio" type="radio" name="membership" value="companion"> Companion</label>
-                        <label><input class="radio" type="radio" name="membership" value="partner"> Partner</label>
-                    </fieldset>
+                        <label><input class="radio radio-1" type="radio" name="membership" value="guest"> NP Membership</label><br>
+                        <label><input class="radio" type="radio" name="membership" value="guest"> Bronze Membership</label><br>
+                        <label><input class="radio" type="radio" name="membership" value="companion"> Silver Membership</label><br>
+                        <label><input class="radio" type="radio" name="membership" value="partner"> Gold Membership</label>
+                    </fieldset><br>
 
-                    <label>Business description <textarea name="textarea" rows="5" cols="37" name="businessName" required></textarea></label>
+                    <label class="bsd-label">Business description <textarea name="textarea" rows="5" cols="37" name="businessName" required></textarea></label><br>
                     <input type="hidden" name="date">
 
-                    <input class="submit" type="submit" value="Submit">
+                    <div class="submit-container">
+                        <input class="submit" type="submit" value="Submit">
+                    </div>
 
                 </fieldset>
             </form>

@@ -342,57 +342,6 @@
       margin-left: 10%;
    }
  
-   form {
-    max-width: 50%;
-    margin: 0 auto;
-    align-items: center;
-   }
- 
-   .main-fieldset {
-      margin: 0 auto;
-      align-items: center;
-   }
- 
-   form label {
-    margin-left: 0;
-    text-align: center;
-   }
- 
-   form label input {
-    margin-left: 0;
-    display: block;
-   }
- 
-   .radio{
-    display: inline;
-   }
- 
-   form fieldset {
-    text-align: center;
-    width: 40%;
-   }
- 
-   textarea {
-      display: block;
-   }
- 
-   .businessName {
-      max-width: 100%;
-   }
- 
-   .radio-fieldset {
-    width: 90%;
-   }
-    .submit {
-    width: 20%;
-    margin-left: 0;
-   }
- 
-   .form-title {
-      font-size: 200%;
-      font-weight: bold;
-   }
- 
    .thankyou-p {
     margin-left: 10%;
     line-height: 150%;
@@ -466,6 +415,15 @@
    .main-discover img:hover {
       width: 42vw;
       box-shadow: 0 0 30px black;
+   }
+
+   /* JOIN PAGE */
+
+   
+
+   .main-join form {
+      margin: 0 auto;
+      width: 29%;
    }
          
  } /* end of media query */
