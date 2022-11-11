@@ -1,0 +1,68 @@
+{
+    "business": [
+      {
+        "name" : "Multicines",
+        "address": "San Ignacio E12-182 Y Av. Gonzalez Suarez, Quito",
+        "logo" : "images/logo-multicines.png",
+        "phone" : "(02) 255-5616",
+        "website" : "https://www.multicines.com.ec/"
+      },
+      {
+        "name" : "Pacari",
+        "address": "Julio Zaldumbide N24-713",
+        "logo" : "images/logo-pacari.png",
+        "phone" : "(02) 380-9230",
+        "website" : "https://www.paccari.com/"
+      },
+      {
+        "name" : "CNT",
+        "address": "Avenida Amazonas Y Gaspar De Villaruel Esq.",
+        "logo" : "images/logo-cnt.png",
+        "phone" : "(023) 731-700",
+        "website" : "https://www.cnt.com.ec/"
+      },
+      {
+        "name" : "TIA",
+        "address": "Av. Río Amazonas, y Quito",
+        "logo" : "images/logo-tia.png",
+        "phone" : "(098) 603-444",
+        "website" : "https://www.tia.com.ec/"
+      },
+      {
+        "name" : "Holcim",
+        "address": "Piso 1, Manuel Zambrano 200 y, Quito 170513",
+        "logo" : "images/logo-holcim.png",
+        "phone" : "(02) 248-2302",
+        "website" : "https://www.holcim.com.ec/"
+      },
+      {
+        "name" : "Produbanco",
+        "address": "Av Simón Bolívar y Vía a Nayón Centro Corporativo EKOPARK Torre 1",
+        "logo" : "images/logo-produbanco.png",
+        "phone" : "(02) 299-9000",
+        "website" : "https://www.produbanco.com.ec/"
+      },
+      {
+        "name" : "Banco de Guayaquil",
+        "address": "Sta. María &, Quito",
+        "logo" : "images/logo-bnc-gye.png",
+        "phone" : "(02) 373-0100",
+        "website" : "https://www.bancoguayaquil.com/"
+      },
+      {
+        "name" : "Banco del Pacifico",
+        "address": "Av. Naciones Unidas E7-95, Quito 170135",
+        "logo" : "images/logo-bnc-pacifico.png",
+        "phone" : "(02) 373-1500",
+        "website" : "https://www.bancodelpacifico.com/"
+      },
+      {
+        "name" : "Portal Shopping",
+        "address": "Panamericana Norte y Capitán Giovanni Calles",
+        "logo" : "images/logo-portal.png",
+        "phone" : "(02) 246-4527",
+        "website" : "https://portalshopping.com.ec/"
+      }
+    ]
+  }
+  

@@ -4,12 +4,12 @@
 
     <head>
 
-      <title>Quito Chamber of Commerce | Thank You</title>
+      <title>Quito Chamber of Commerce | Directory</title>
       <meta charset="utf-8">
 
       <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name ="description" content="Quito Chamber of Commerce Web Site | Thank you">
+      <meta name ="description" content="Quito Chamber of Commerce Web Site">
 
       <!-- STYLE SHEETS -->
       <link href="styles/normalize.css" rel="stylesheet">
@@ -24,19 +24,19 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     </head>
 
     <body>
 
         <!-- HEADER HERE -->
-        <header>
+        <header class="header">
 
             <img id="logo-image" src="images/quito-chamber-of-commerce-logo.png" alt="Quito Chamber of Commerce Logo">
             <h1 id="title-page">Quito Chamber of Commerce</h1>
             <h2>The Chamber of Commerce with you</h2>
-            <date class="date"></date>
+            <div class="date"></div>
 
         </header>
 
@@ -50,22 +50,25 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a class="active" href="directory.html">Directory</a></li>
                 <li class="last-li">
                     <a href="https://www.facebook.com/lacamaradequito" class="fa fa-facebook"></a>
                     <a href="https://twitter.com/lacamaradequito?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
                 </li>
-
             </ul>
 
         </nav>
 
         <!-- MAIN HERE -->
-        <main class="clearfix">
+        <main class="clearfix main-dir">
 
-            <h1>Thank You!</h1>
+            <h1>Directory</h1>
 
-            <p class="thankyou-p">Welcome! thank you for deciding to be part of this great family, you are a valuable partner for the Chamber of Commerce of Quito!</p>
+            <div class="dir-div">
+
+                <div class="cards"></div>
+
+            </div>
 
         </main>
 
@@ -84,12 +87,14 @@
                 
             </div>
 
-            <div class="line"></div>
+            <hr>
 
             <p class="last-p">&copy; Quito Chamber of Commerce | Dilan Salas | WDD 230 Project <span id="last-updated"></span></p>
-            <!-- <p id="last-updated-p"><span id="last-updated"></span></p> -->
 
         </footer>
+
+        <script src="scripts/script.js"></script>
+        <script src="scripts/directory.js"></script>
 
     </body>
   

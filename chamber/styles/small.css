@@ -467,3 +467,35 @@ legend {
 .main-join .radio {
     margin-left: 22%;
 }
+
+/* DIRECTORY PAGE */
+
+.main-dir img {
+    max-height: 50px;
+}
+
+.main-dir h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', Arial, serif;
+    color: #484349;
+}
+
+.main-dir .cards {
+    text-align: center;
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #484349;
+}
+
+.main-dir section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 5%;
+    box-shadow: 0px 0px 15px #484349;
+}
+
+.main-dir a {
+    text-decoration: underline;
+    color: rgba(88, 127, 255, 0.842)
+}
