@@ -291,34 +291,17 @@
       grid-row: 2/3;
    }
 
-   .link-4 h3 {
-      font-size: 400%;
+   .link-4 figure {
+      left: 100px;
+   }
+   
+   #p-windSpeed {
+      left: 320px;
    }
 
-   .link-4 p, .link-4 form {
-      font-size: 200%;
-   }
-
-   .link-4 p {
-      padding-left: 39%;
-      margin-bottom: 2%;
-   }
-
-   .wind-chill-div {
-      top: 2%;
-   }
-
-   .wind-chill-div form input {
-      margin-top: 7%;
-      margin-bottom: 7%;
-   }
-
-   .wind-chill-div form label {
-      margin-left: 20%;
-   }
-
-   .wind-chill-div form .wind-speed-input {
-      margin-bottom: 0;
+   #p-windChill {
+      top: 105px;
+      left: 320px;
    }
 
    .link-5 {
@@ -335,11 +318,6 @@
       display: block;
       grid-column: 1/5;
       grid-row: 4/5;
-   }
-
-   .windchill {
-      width: 79.5%;
-      margin-left: 10%;
    }
  
    .thankyou-p {

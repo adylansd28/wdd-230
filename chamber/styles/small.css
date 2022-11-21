@@ -194,7 +194,6 @@ main h1 {
     width: 100%;
 }
 
-
 .home-grid img {
     border-radius: 2px;
     box-shadow: 5px 5px 15px #004444;
@@ -227,51 +226,67 @@ picture img {
 
 .link-4 {
     position: relative;
+    height: 200px;
 }
 
-.wind-chill-div {
-    left: -1.5%;
-    top:10%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.link-4 img{
     position: absolute;
-    border-radius: 0px !important;
-    border: none !important;
-    box-shadow: none !important;
+    top: 0;
+    left: 0;
 }
 
-.wind-chill-div h3 {
+.link-4 h3 {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 150%;
+}
+
+.link-4 #p-temperature {
+    position: absolute;
+    left: 70px;
+}
+
+.link-4 figure {
+    position: absolute;
+    top: 25%;
+    left: 5%;
     text-align: center;
-    margin: 0;
-    margin-top: 0;
-    margin-bottom: 2%;
+    position: relative;
 }
 
-.wind-chill-div p {
-    padding-left: 40%;
-    margin-bottom: 2%;
+.link-4 figure img {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    border-radius: 5px;
 }
 
-.wind-chill-div p, .wind-chill-div form label {
-    margin-left: 10%;
+.link-4 figure p {
+    position: absolute;
+    top: -5px;
+    left: 70px;
+    font-size: 130%;
+}
+.link-4 figure figcaption {
+    position: absolute;
+    top: 60px;
+    left: -20px;
+    font-size: 120%;
 }
 
-.wind-chill-div form input {
-    margin-top: 3%;
-    text-align: center;
+#p-windSpeed {
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    font-size: 120%;
 }
 
-.calc-btn {
-    margin-left: 45%;
-}
-
-.wind-chill-div form {
-    border: 0;
-}
-
-.link-4 p {
-    margin: 0;
+#p-windChill {
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    font-size: 120%;
 }
 
 .main-discover {

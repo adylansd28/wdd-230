@@ -85,43 +85,16 @@
         grid-row: 3/4;
     }
 
-    .wind-chill-div h3 {
-        margin-top: 0;
-        font-size: 100%;
+    .link-4 figure{
+        left: 40px;
     }
 
-    .wind-chill-div p {
-        font-size: 100%;
-        margin: 0;
-        padding-left: 42%;
+    #p-windSpeed {
+        left: 250px;
     }
 
-    .wind-chill-div form label {
-        font-size: 50%;
-        line-height: 50%;
-        margin: 0% !important;
-        margin-top: 3% !important;
-        padding: 0% !important;
-        display: block;
-    }
-
-    .wind-chill-div form input {
-        font-size: 50%;
-        line-height: 50%;
-        margin: 0% !important;
-        margin-top: 3% !important;
-        margin-left: 10% !important;
-        padding: 0% !important;
-        display: block;
-    }
-
-    .wind-chill-div .calc-btn {
-        padding: 1.5% !important;
-        margin-left: 40% !important;
-    }
-
-    .wind-chill-div br {
-        display: none;
+    #p-windChill {
+        left: 250px;
     }
 
     .link-5 {
