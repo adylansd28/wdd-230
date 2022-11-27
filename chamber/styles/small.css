@@ -200,15 +200,17 @@ main h1 {
 }
 
 .img-free {
-    width: 100%;
-    opacity: 0.2;
+    height: 100%;
+    width: auto;
+    opacity: 0.3;
 }
+
 .home-grid div {
-    border: 1px solid black;
+    border: 1px solid #484349;
     overflow: hidden;
     border-radius: 20px;
     margin: 2%;
-    box-shadow: 5px 5px 10px #51a3a3;
+    height: 250px;
 }
 
 .home-grid a{
@@ -220,8 +222,81 @@ picture img {
     width: 120%;
 }
 
-.link-7, .link-8 {
-    display: none;
+.link-1 img {
+    height: 100%;
+    width: auto;
+}
+
+.link-2 {
+    position: relative;
+}
+
+.home-grid div:hover {
+    box-shadow: 5px 5px 10px #51a3a3;
+}
+
+.link-2 img {
+    position: absolute;
+}
+
+.link-2 h3 {
+    position: absolute;
+    left: 37%;
+    top: 10%;
+    font-size: 170%;
+}
+
+.link-2 p {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 15%;
+    display: block;
+    width: 70%;
+    font-size: 130%;
+}
+
+.link-2 a:hover {
+    color: black;
+    font-size: 105%;
+    cursor: pointer;
+}
+
+.link-3 {
+    position: relative;
+}
+
+.link-3 a {
+    text-decoration: underline;
+}
+
+.link-3 img {
+    position: absolute;
+    height: 100%;
+}
+
+.link-3 h3 {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-size: 170%;
+
+}
+
+.link-3 p {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 15%;
+    display: block;
+    width: 70%;
+    font-size: 130%;
+}
+
+.link-3 a:hover {
+    color: black;
+    font-size: 105%;
+    cursor: pointer;
 }
 
 .link-4 {
@@ -237,9 +312,9 @@ picture img {
 
 .link-4 h3 {
     position: absolute;
-    top: 0;
-    left: 40%;
-    font-size: 150%;
+    top: 7%;
+    left: 35%;
+    font-size: 170%;
 }
 
 .link-4 #p-temperature {
@@ -249,8 +324,8 @@ picture img {
 
 .link-4 figure {
     position: absolute;
-    top: 25%;
-    left: 5%;
+    top: 30%;
+    left: 2%;
     text-align: center;
     position: relative;
 }
@@ -272,21 +347,99 @@ picture img {
     position: absolute;
     top: 60px;
     left: -20px;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 #p-windSpeed {
     position: absolute;
-    top: 55px;
-    left: 200px;
-    font-size: 120%;
+    top: 30%;
+    left: 50%;
+    font-size: 110%;
 }
 
 #p-windChill {
     position: absolute;
-    top: 110px;
-    left: 200px;
-    font-size: 120%;
+    top: 53%;
+    left: 50%;
+    font-size: 110%;
+}
+
+.link-5 {
+    position: relative;
+}
+
+.link-5 img {
+    position: absolute;
+    height: 100%;
+}
+
+.link-5 h3 {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-size: 170%;
+
+}
+
+.link-5 p {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 15%;
+    display: block;
+    width: 70%;
+    font-size: 130%;
+}
+
+.link-5 a {
+    text-decoration: underline;
+}
+
+.link-5 a:hover {
+    color: black;
+    font-size: 105%;
+    cursor: pointer;
+}
+
+.link-6 {
+    position: relative;
+}
+
+.link-6 img {
+    position: absolute;
+    height: 100%;
+}
+
+.link-6 h3 {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-size: 170%;
+
+}
+
+.link-6 p {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 15%;
+    display: block;
+    width: 70%;
+    font-size: 130%;
+}
+
+.link-6 a {
+    text-decoration: underline;
+}
+
+.link-6 a:hover {
+    color: black;
+    font-size: 105%;
+    cursor: pointer;
+}
+
+.link-7, .link-8 {
+    display: none;
 }
 
 .main-discover {
@@ -513,4 +666,34 @@ legend {
 .main-dir a {
     text-decoration: underline;
     color: rgba(88, 127, 255, 0.842)
+}
+
+/* Contact */
+
+.contact-main {
+    text-align: center;
+}
+
+.contact-main h1 {
+    margin-left: 0;
+}
+
+.contact-main h2 {
+    margin-top: 5%;
+}
+
+.contact-main img {
+    margin-top: 2%;
+    width: 80%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.contact-div p {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.contact-div span {
+    font-size: large;
 }
